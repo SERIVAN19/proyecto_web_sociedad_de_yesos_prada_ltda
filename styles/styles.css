@@ -489,13 +489,13 @@ html{
 }
 
 .add-cart {
+	text-decoration: none;
 	justify-self: start;
 	border: 2px solid var(--primary-color);
 	padding: 1rem;
 	border-radius: 50%;
 	cursor: pointer;
 	transition: all 0.4s ease;
-
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -506,6 +506,7 @@ html{
 }
 
 .add-cart i {
+	text-decoration: none;
 	font-size: 1.5rem;
 	color: var(--primary-color);
 }
@@ -525,7 +526,7 @@ html{
 .content-card-product .price span {
 	font-size: 1.5rem;
 	font-weight: 400;
-	text-decoration: line-through;
+	text-decoration: none;
 	color: #777;
 	margin-left: 0.5rem;
 }
@@ -563,6 +564,37 @@ html{
 	gap: 2rem;
 	margin-bottom: 3rem;
 }
+
+.slider{
+	width: 75vw;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.slider .slide-track{
+	display: flex;
+	animation: scroll 40s linear infinite;
+	-webkit-animation: scroll 40s linear infinite;
+	width: calc(200px * 16);
+}
+.slider .slide{
+	width: 200px;
+}
+.slider .slide img{
+	width: 100%;
+}
+
+@keyframes scroll{
+	0%{
+		-webkit-transform: translateX(0);
+		trasnform: translateX(0);
+	}
+	100%{
+		-webkit-transform: translateX(calc(-200px * 8));
+		trasnform: translateX(-200px * 8);
+	}
+}
+
 
 /* ********************************** */
 /*                BLOGS               */
