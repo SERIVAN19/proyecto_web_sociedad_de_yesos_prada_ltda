@@ -7,6 +7,7 @@
     --doradosyp: #D5A983;
 }
 html{
+	scroll-behavior: smooth;
     font-size: 62.5%;
     font-family: 'Poppins', sans-serif;
 }
@@ -16,7 +17,10 @@ html{
     box-sizing: border-box;
 }
 
-/**UTILIDADES */
+
+/* ********************************** */
+/*       UTIL     */
+/* ********************************** */
 .container{
     max-width: 120rem;
     margin: 0 auto;
@@ -26,8 +30,19 @@ html{
     font-weight: 500;
     font-size: 3rem;
 }
+.link_heading{
+	text-decoration: none;
+	color: #000;
+}
+.link_heading:hover{
+	text-shadow: 0px 0px 5px #888888;
+}
 
-/**HEADER */
+
+
+/* ********************************** */
+/*       HEADER    */
+/* ********************************** */
 .container-hero{
     background-color: var(--background-color); 
 }
@@ -37,25 +52,13 @@ html{
     align-items: center;
     padding: 1rem 0;
 }
-.customer-support{
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-}
-.customer-support i{
-    font-size: 3.3rem;
-}
-
-.content-customer-support{
-    display: flex;
-    flex-direction: column;
-}
 
 .container-user{
     display: flex;
     gap: 1rem ;
     cursor: pointer;
 }
+
 .container-user .fa-user{
     font-size: 3rem;
     color: var(--primary-color);
@@ -63,7 +66,7 @@ html{
     border-right: 1px solid #e2e2e2;
 }
 .logo__img{
-    width: 13rem;
+    width: 25rem;
     height: 7rem;
     border-radius: 0.5rem;
 }
@@ -80,11 +83,21 @@ html{
 
 .content-shoping-cart{
     display: flex;
-    flex-direction: column;
+	align-items: center;
+}
+
+.content-shoping-cart a{
+    font-size: 1.5rem;
+	text-decoration: none;
+	color: var(--primary-color);
+	font-weight: 600;
 }
 
 
-/**NAVBAR */
+
+/* ********************************** */
+			/**NAVBAR */
+/* ********************************** */
 .container-navbar{
     background-color: var(--doradosyp);
 }
@@ -110,7 +123,7 @@ html{
 
 .menu a{
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: var(--moradosyp);
     font-weight: 600;
     text-transform: uppercase;
@@ -119,7 +132,7 @@ html{
 
 .menu a::after{
     content: '';
-    width: 1.5rem;
+    width: 2rem;
     height: 1px;
     background-color: #fff;
     position: absolute;
@@ -136,50 +149,12 @@ html{
     color: white;
 }
 
-.search-form{
-   position: relative;
-   display: flex;
-   align-items: center;
-   border: 2px solid #fff;
-   border-radius: 2rem;
-   background-color: #fff;
-   height: 4.4rem;
-   overflow: hidden;
-   /*display: none;*/
-}
-.search-form input{ 
-   outline: none;
-   font-family: inherit;
-   border: none;
-   width: 25rem;
-   font-size: 1.4rem;
-   padding: 0 2rem;
-   color: #777;
-   cursor: pointer;
-}
-.search-form input::-webkit-search-cancel-button{ 
-   appearance: none;
-}
 
-.search-form .btn-search{
-    border: none;
-    background-color: var(--doradosyp);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    padding: 1rem;
-}
-
-.btn-search i{
-    font-size: 2rem;
-    color: white;
-}
-
-
-/**HEADER */
+/* ********************************** */
+			/**HEADER */
+/* ********************************** */
 .banner{
-    background-image: /*linear-gradient(100deg, #050505, #00000005),*/url('/img/principal1.JPG');
+    background-image: /*linear-gradient(100deg, #050505, #00000005),*/url('/img/principal1.png');
     height: 55rem;
     background-size: cover;
     background-position: center;
@@ -188,14 +163,15 @@ html{
 .content-banner{
     max-width: 90rem;
     margin: 0 auto;
-    padding: 19rem 0;
+    padding: 12rem 0;
 }
 
 .content-banner p{
-    color: var(--primary-color);
-    font-size: 2rem;
+    color: #8d379c;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
     font-weight: 500;
+	text-shadow: 3px 3px 5px #e4dcdc;
 }
 
 .content-banner h2{
@@ -207,6 +183,7 @@ html{
 
 .content-banner a{
     display: inline-block;
+	font-size: 1.5rem;
     text-decoration: none;
     color: #fff;
     background-color: var(--primary-color);
@@ -214,27 +191,40 @@ html{
     text-transform: uppercase;
     border-radius: 3rem;
     margin-top: 2rem;
+	text-shadow: 3px 3px 5px #292525;
+}
+.content-banner a:hover{
+    font-size: 1.51rem;
 }
 
 
-/**MAIN CONTENT */
+/* ********************************** */
+			/**MAIN */
+/* ********************************** */
 .main-content {
 	background-color: var(--background-color);
 }
 
-/**FEATURES */
+
+/* ********************************** */
+			/**FEATURES */
+/* ********************************** */
 .container-features {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 3rem;
 	padding: 3rem 0;
 }
+
+.container-features a{
+	text-decoration: none;
+}
+
 .card-feature {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	gap: 1.5rem;
-
 	background-color: #fff;
 	border-radius: 1rem;
 	padding: 1.5rem 0;
@@ -243,6 +233,9 @@ html{
 .card-feature i {
 	font-size: 2.7rem;
 	color: var(--primary-color);
+}
+.card-feature:hover{
+	box-shadow: 0px 0px 5px #a19696;
 }
 
 .feature-content {
@@ -262,8 +255,9 @@ html{
 	font-weight: 500;
 }
 
-
-/**CATEGORIAS */
+/* ********************************** */
+			/**CATEGORIAS */
+/* ********************************** */
 .top-categories {
 	display: flex;
 	flex-direction: column;
@@ -276,6 +270,7 @@ html{
 	grid-template-columns: repeat(3, 1fr);
 	gap: 3rem;
 }
+
 .card-category {
 	height: 20rem;
 	display: flex;
@@ -285,6 +280,10 @@ html{
 	border-radius: 2rem;
 	gap: 2rem;
 }
+.card-category:hover {
+	box-shadow: 0px 0ch 6px #4e4b4b;
+}
+
 
 .category-reforestacion {
 	background-image: linear-gradient(#00000080, #00000080),
@@ -426,10 +425,11 @@ html{
 	transition: all 0.4s ease;
 }
 
-.button-group span {
+.button-group a{
+	text-decoration: none;
+	color: var(--primary-color);
 	border: 1px solid var(--primary-color);
 	padding: 0.8rem;
-
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -438,7 +438,7 @@ html{
 	transition: all 0.4s ease;
 }
 
-.button-group span:hover {
+.button-group a:hover {
 	background-color: var(--primary-color);
 }
 
