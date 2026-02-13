@@ -694,10 +694,8 @@ html {
 }
 
 .menu-footer {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr) 30rem;
-	gap: 3rem;
-	justify-items: center;
+	display: flex;
+	justify-content: space-evenly;
 }
 
 .title-footer {
@@ -1069,19 +1067,37 @@ html {
 	}
 
 	.contact-info {
+
 		align-items: center;
+	}
+
+	.container-footer{
+		display: flex;
+		flex-direction: column;
 	}
 
 	.menu-footer {
 		display: flex;
-		flex-direction: row;
+		justify-content: center;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
 	}
 
 	.contact-info {
+		display: flex;
+		flex-direction: column;
 		align-items: center;
+		margin-bottom: 2rem;
 	}
 	.content p {
 		font-size: 1.6rem;
+	}
+	.title-footer{
+		text-align: center;
+	}
+	.content button{
+		display: none;
 	}
 }
 
