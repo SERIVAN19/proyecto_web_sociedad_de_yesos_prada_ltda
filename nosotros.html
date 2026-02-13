@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"
+        defer></script>
     <script src="https://kit.fontawesome.com/da6a5826df.js" crossorigin="anonymous" defer></script>
     <title>Sociedad de yesos prada LTDA</title>
 </head>
 
 <body>
-
     <!--HEADER-->
     <header>
         <div class="container-hero">
@@ -29,444 +33,169 @@
                 </div>
             </div>
         </div>
+         <!--Menu-->
         <div class="container-navbar">
-            <nav class="navbar container">
-                <i class="fa-solid fa-bars"></i>
-                <ul class="menu">
-                    <li><a href="#">Incio</a></li>
-                    <li><a href="#medio-ambiente">Medio Ambiente</a></li>
-                    <li><a href="#productos">Productos</a></li>
-                    <li><a href="#">Galeria</a></li>
-                    <li><a href="#clientes">Clientes</a></li>
-                    <li><a href="#blog-social">Comunidad</a></li>
-                </ul>
-            </nav>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid navcolor">
+                        <button class="navbar-toggler navcolor" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#medio-ambiente">Medio
+                                        Ambiente</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#medio-ambiente">Productos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#medio-ambiente">Clientes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#medio-ambiente">Gestión
+                                        Social</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
         </div>
     </header>
 
-
-    <!--BANNER-->
-    <section class="banner">
-        <div class="content-banner">
-            <p>Sociedad de Yesos Prada LTDA</p>
-            <h2>Somos el mayor <br> proveedor de yeso del pais.</h2>
-            <a href="#">Nuestros Productos</a>
-        </div>
-    </section>
-
-
     <!--MAIN-->
-    <main class="main-content">
-        <section class="container container-features">
-
-            <a href="instalaciones.html">
-                <div class="card-feature">
+    <main class="main-nosotros">
+        <section class="container container-features nos">
+                <div class="card-nosotros">
                     <i class="fa-regular fa-circle-dot"></i>
+                    <div class="feature-content cart">
+                        <span>Misión</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga eum quo veritatis quia
+                            voluptatum. Nam dolor, ipsa quibusdam id officiis impedit amet autem accusantium voluptate
+                            hic delectus at labore, possimus tempore voluptatem animi architecto in voluptas
+                            voluptatibus nostrum assumenda. Natus nisi iure quia aliquam doloremque architecto nihil eum
+                            et. Dolor!</p>
+                    </div>
+                </div>
+                <div class="card-nosotros">
+                    <i class="fa-solid fa-eye"></i>
                     <div class="feature-content">
-                        <span>Instalaciones</span>
-                        <p>Nuestras minas</p>
+                        <span>Visión</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde dicta laborum quisquam
+                            veniam porro. Id cum incidunt magni odio perferendis in tempora officiis? Quos explicabo,
+                            magnam quo libero iure error totam, architecto amet accusamus ut quasi qui aliquid iusto
+                            doloremque voluptatum sunt voluptate veritatis dolore. Quo tempore dolores repellendus
+                            molestiae.
+                        </p>
                     </div>
                 </div>
-            </a>
-            <a href="instalaciones.html">
-                <div class="card-feature">
-                    <i class="fa-solid fa-truck"></i>
+                <div class="card-nosotros">
+                    <i class="fa-solid fa-person"></i>
                     <div class="feature-content">
-                        <span>Centro de acopio</span>
-                        <p>Centro de Acopio la u</p>
-                    </div>
-                </div>
-            </a>
-            <a href="instalaciones.html">
-                <div class="card-feature">
-                    <i class="fa-regular fa-building"></i>
-                    <div class="feature-content">
-                        <span>Oficinas</span>
-                        <p>Nuestras instalaciones</p>
-                    </div>
-                </div>
-            </a>
-        </section>
-
-        <!--MAIN ENVIRONMENT-->
-        <section class="container top-categories" id="medio-ambiente">
-            <a href="ambiental.html" class="link_heading">
-                <h1 class="heading-1">Medio Ambiente</h1>
-            </a>
-            <div class="container-categories">
-                <div class="card-category category-reforestacion">
-                    <p>Reforestación</p>
-                    <span>Ver más</span>
-                </div>
-                <div class="card-category category-suelo">
-                    <p>Protección del suelo y agua</p>
-                    <span>Ver más</span>
-                </div>
-                <div class="card-category category-conservacion">
-                    <p>Conservación</p>
-                    <span>Ver más</span>
-                </div>
-            </div>
-        </section>
-
-
-        <!--PRODUCTS-->
-        <section class="container top-products" id="productos">
-            <a href="productos.html" class="link_heading">
-                <h1 class="heading-1">Nuestros Productos</h1>
-            </a>
-
-            <div class="container-options">
-                <!--
-					<span class="active">Destacados</span>
-					<span>Más recientes</span>
-					<span>Mejores Vendidos</span>
-                    -->
-            </div>
-            <div class="container-products">
-                <!-- Producto 1 -->
-                <div class="card-product">
-                    <div class="container-img">
-                        <img src="img/prod1.jpeg" alt="producto1" />
-                        <!--<span class="discount">-13%</span>-->
-                        <div class="button-group">
-                            <a href="productos.html">
-                                <i class="fa-regular fa-eye"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="content-card-product">
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <h3>Polihalita</h3>
-                        <a href="contacto.html" class="add-cart">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </a>
-                        <p class="price">$150.000 <span>Tonelada</span></p>
-                    </div>
-                </div>
-                <!-- Producto 2 -->
-                <div class="card-product">
-                    <div class="container-img">
-                        <img src="img/prod2.jpeg" alt="producto2" />
-                        <!--<span class="discount">-13%</span>-->
-                        <div class="button-group">
-                            <a href="productos.html">
-                                <i class="fa-regular fa-eye"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="content-card-product">
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <h3>Yeso Triturado</h3>
-                        <span class="add-cart">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </span>
-                        <p class="price">$120.000 <span>Tonelada</span></p>
-                    </div>
-                </div>
-                <!--  -->
-                <div class="card-product">
-                    <div class="container-img">
-                        <img src="img/prod3.jpeg" alt="Producto3" />
-                        <div class="button-group">
-                            <a href="productos.html">
-                                <i class="fa-regular fa-eye"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="content-card-product">
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <h3>Yeso Rajon</h3>
-                        <span class="add-cart">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </span>
-                        <p class="price">$120.000 <span>Tonelada</span></p>
-                    </div>
-                </div>
-                <!--  -->
-                <div class="card-product">
-                    <div class="container-img">
-                        <img src="img/prod2.jpeg" alt="Cascajo trituradp" />
-                        <div class="button-group">
-                            <a href="productos.html">
-                                <i class="fa-regular fa-eye"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="content-card-product">
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <h3>Cascajo Triturado</h3>
-                        <span class="add-cart">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </span>
-                        <p class="price">$120.000 <span>Tonelada</span></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!--GALLERY-->
-        <section class="gallery">
-            <img src="img/Equipos.jpg" alt="Gallery Img1" class="gallery-img-1" /><img src="img/gallery1.jpeg"
-                alt="Gallery Img2" class="gallery-img-2" /><img src="img/equipos2.jpeg" alt="Gallery Img3"
-                class="gallery-img-3" /><img src="img/gallery2.jpeg" alt="Gallery Img4" class="gallery-img-4" /><img
-                src="img/gallery3.jpeg" alt="Gallery Img5" class="gallery-img-5" />
-        </section>
-
-
-        <!--SLIDER AUTOMATICO-->
-        <section class="specials" id="clientes">
-            <a href="productos.html" class="link_heading">
-                <h1 class="heading-1">Nuestros Clientes</h1>
-            </a>
-
-            <div class="slider">
-                <div class="slide-track">
-                    <div class="slide">
-                        <img src="img/clientes1.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="img/clientes2.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="img/clientes3.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="img/clientes4.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="img/clientes5.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="img/clientes6.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="img/clientes7.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="img/clientes8.png" alt="">
-                    </div>
-
-
-                    <!--Repeat-->
-                    <div class="slide">
-                        <img src="img/clientes1.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="img/clientes2.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="img/clientes3.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="img/clientes4.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="img/clientes5.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="img/clientes6.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="img/clientes7.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="img/clientes8.png" alt="">
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-
-        <!--BLOG SOCIAL-->
-        <section class="container blogs" id="blog-social">
-            <a href="productos.html" class="link_heading">
-                <h1 class="heading-1">Gestión Social</h1>
-            </a>
-            <div class="container-blogs">
-                <div class="card-blog">
-                    <div class="container-img">
-                        <img src="img/Comunidad2.jpeg" alt="Imagen Blog 1" />
-                        <div class="button-group-blog">
-                            <span>
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </span>
-                            <span>
-                                <i class="fa-solid fa-link"></i>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="content-blog">
-                        <h3>Espacios de diálogo con la comunidad</h3>
-                        <span>29 Noviembre 2023</span>
-                        <p>
-                            El proyecto minero Yesos Prada LTDA considera a las autoridades locales como grupo de
-                            interés relevante debido a la figura y control ejercido el municipio de los Santos y las
-                            distintas veredas que la componen. Además de ser la Administración Municipal la encargada de
-                            ejecutar el gasto público el cual se encuentra proyectado hacia necesidades de la población.
+                        <span>Valores</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde dicta laborum quisquam
+                            veniam porro. Id cum incidunt magni odio perferendis in tempora officiis? Quos explicabo,
+                            magnam quo libero iure error totam, architecto amet accusamus ut quasi qui aliquid iusto
+                            doloremque voluptatum sunt voluptate veritatis dolore. Quo tempore dolores repellendus
+                            molestiae.
                         </p>
-                        <div class="btn-read-more">Leer más</div>
                     </div>
                 </div>
-                <div class="card-blog">
-                    <div class="container-img">
-                        <img src="img/ambiental2.jpeg" alt="Imagen Blog 2" />
-                        <div class="button-group-blog">
-                            <span>
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </span>
-                            <span>
-                                <i class="fa-solid fa-link"></i>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="content-blog">
-                        <h3>Apoyo con suministro de agua para la comunidad</h3>
-                        <span>29 Noviembre 2024</span>
-                        <p>
-                            en épocas de sequía la Empresa Yesos Prada Ltda, apoya con
-                            suministro de agua para los trabajadores, familia y
-                            comunidad en general de acuerdo con solicitudes allegadas
-                            a la empresa y a través de suministro de agua con los
-                            carrotanques propios.
-                        </p>
-                        <div class="btn-read-more">Leer más</div>
-                    </div>
-                </div>
-                <div class="card-blog">
-                    <div class="container-img">
-                        <img src="img/vias.jpeg" alt="Imagen Blog 3" />
-                        <div class="button-group-blog">
-                            <span>
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </span>
-                            <span>
-                                <i class="fa-solid fa-link"></i>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="content-blog">
-                        <h3>Mantenimiento de vías</h3>
-                        <span>18 Abril 2022</span>
-                        <p>
-                            Mantenimiento vial de las carreteras vederales de la laguna, paso chico, regadero
-                            y la loma; del 18 al 30 de abril de 2022.
-                            Las actividades de mantenimiento vial, se han venido implementando a
-                            través del tiempo, debido a la necesidad de conservar en buen estado y en funcionamiento
-                            estas vias, y así preservar las inversiones realizadas en su construcción o rehabilitación;
-                            además del cuidado de los vehículos que por allí transitan.
-                        </p>
-                        <div class="btn-read-more">Leer más</div>
-                    </div>
-                </div>
-            </div>
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="container container-footer">
-            <div class="menu-footer">
-                <div class="contact-info">
-                    <p class="title-footer">Información de Contacto</p>
-                    <ul>
-                        <li>
-                            Cra 21 # 53 -44 bucaramanga
-                        </li>
-                        <li>Teléfono: 3182434353</li>
-                        <li>Fax: 55555300</li>
-                        <li>Email: sergio.bueno@yesosprada.com</li>
-                    </ul>
-                    <div class="social-icons">
-                        <span class="facebook">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </span>
-                        <span class="twitter">
-                            <i class="fa-brands fa-twitter"></i>
-                        </span>
-                        <span class="youtube">
-                            <i class="fa-brands fa-youtube"></i>
-                        </span>
-                        <span class="pinterest">
-                            <i class="fa-brands fa-pinterest-p"></i>
-                        </span>
-                        <span class="instagram">
-                            <i class="fa-brands fa-instagram"></i>
-                        </span>
+
+
+        <footer class="footer">
+            <div class="container container-footer">
+                <div class="menu-footer">
+                    <div class="contact-info">
+                        <p class="title-footer">Información de Contacto</p>
+                        <ul>
+                            <li>
+                                Cra 21 # 53 -44 bucaramanga
+                            </li>
+                            <li>Teléfono: 3182434353</li>
+                            <li>Fax: 55555300</li>
+                            <li>Email: sergio.bueno@yesosprada.com</li>
+                        </ul>
+                        <div class="social-icons">
+                            <span class="facebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </span>
+                            <span class="twitter">
+                                <i class="fa-brands fa-twitter"></i>
+                            </span>
+                            <span class="youtube">
+                                <i class="fa-brands fa-youtube"></i>
+                            </span>
+                            <span class="pinterest">
+                                <i class="fa-brands fa-pinterest-p"></i>
+                            </span>
+                            <span class="instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="information">
+                        <p class="title-footer">Información</p>
+                        <ul>
+                            <li><a href="#">Acerca de Nosotros</a></li>
+                            <li><a href="#">Información Delivery</a></li>
+                            <li><a href="#">Politicas de Privacidad</a></li>
+                            <li><a href="#">Términos y condiciones</a></li>
+                            <li><a href="#">Contactános</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="my-account">
+                        <p class="title-footer">Mi cuenta</p>
+
+                        <ul>
+                            <li><a href="#">Mi cuenta</a></li>
+                            <li><a href="#">Historial de ordenes</a></li>
+                            <li><a href="#">Lista de deseos</a></li>
+                            <li><a href="#">Boletín</a></li>
+                            <li><a href="#">Reembolsos</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="newsletter">
+                        <p class="title-footer">Boletín informativo</p>
+
+                        <div class="content">
+                            <p>
+                                Suscríbete a nuestros boletines ahora y mantente al
+                                día con nuevas colecciones y ofertas exclusivas.
+                            </p>
+                            <input type="email" placeholder="Ingresa el correo aquí...">
+                            <button>Suscríbete</button>
+                        </div>
                     </div>
                 </div>
 
-                <div class="information">
-                    <p class="title-footer">Información</p>
-                    <ul>
-                        <li><a href="#">Acerca de Nosotros</a></li>
-                        <li><a href="#">Información Delivery</a></li>
-                        <li><a href="#">Politicas de Privacidad</a></li>
-                        <li><a href="#">Términos y condiciones</a></li>
-                        <li><a href="#">Contactános</a></li>
-                    </ul>
-                </div>
-
-                <div class="my-account">
-                    <p class="title-footer">Mi cuenta</p>
-
-                    <ul>
-                        <li><a href="#">Mi cuenta</a></li>
-                        <li><a href="#">Historial de ordenes</a></li>
-                        <li><a href="#">Lista de deseos</a></li>
-                        <li><a href="#">Boletín</a></li>
-                        <li><a href="#">Reembolsos</a></li>
-                    </ul>
-                </div>
-
-                <div class="newsletter">
-                    <p class="title-footer">Boletín informativo</p>
-
-                    <div class="content">
-                        <p>
-                            Suscríbete a nuestros boletines ahora y mantente al
-                            día con nuevas colecciones y ofertas exclusivas.
-                        </p>
-                        <input type="email" placeholder="Ingresa el correo aquí...">
-                        <button>Suscríbete</button>
-                    </div>
+                <div class="copyright">
+                    <p>
+                        Desarrollado por <a href="https://servandev.netlify.app/">Sergio Iván Bueno Ardila</a>  &copy; 2026
+                    </p>
+                    <a href="index.html" class="scrollup" id="scroll-up">
+                        <p>Ir arriba</p>
+                        <i class="fa-solid fa-up-long"></i>
+                    </a>
                 </div>
             </div>
-
-            <div class="copyright">
-                <p>
-                    Desarrollado por Sergio Iván Bueno Ardila &copy; 2026
-                </p>
-
-                <img src="img/payment.png" alt="Pagos">
-            </div>
-        </div>
-    </footer>
+        </footer>
 </body>
 
 </html>
