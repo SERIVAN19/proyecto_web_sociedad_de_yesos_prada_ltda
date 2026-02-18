@@ -1,12 +1,232 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"
+        defer></script>
+    <script src="https://kit.fontawesome.com/da6a5826df.js" crossorigin="anonymous" defer></script>
+    <title>Sociedad de yesos prada LTDA</title>
 </head>
+
 <body>
-    <h1>Aqui va la sección de productos, sección aun en desarrollo!</h1>
-    <a href="index.html">Volver a la pagina principal</a>
+
+    <!--HEADER-->
+    <header>
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="container-logo">
+                    <a href="index.html" class="logo">
+                        <img src="img/logosypcompleto.jpeg" alt="Logo Sociedad de Yesos Prada LTDA" class="logo__img">
+                    </a>
+                </div>
+                <div class="container-user">
+                    <i class="fa-solid fa-user"></i>
+                    <div class="content-shoping-cart">
+                        <a href="contacto.html"> <span class="text">Contáctanos</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Menu-->
+        <div class="container-navbar">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid navcolor">
+                        <button class="navbar-toggler navcolor" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="ambiental.html">Medio
+                                        Ambiente</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="contacto.html">Contáctanos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="social.html">Gestión
+                                        Social</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+    <!--MAIN--PRODUCTOS-->
+    <main class="main-content">
+        <h1 class="productos__tittle">Conoce Nuestros Productos</h1>
+        <div class="container productos__flex">
+
+            <div class="prodcuto__flex">
+                <h2 class="tittle__product">Polihalita</h2>
+                <div class="container__imagen">
+                    <img src="/img/prod1.jpeg" alt="">
+                </div>
+                <p class="parrafo">La polihalita es un mineral natural que se encuentra en las zonas de explotación
+                    del yeso y representa una alternativa con gran potencial comercial. Este material es reconocido
+                    por su contenido de nutrientes minerales, lo que lo convierte en un producto con posibles
+                    aplicaciones en diferentes sectores, especialmente en el ámbito agrícola. Su aprovechamiento
+                    representa una oportunidad de diversificación productiva, manteniendo el compromiso con el uso
+                    responsable y eficiente de los recursos minerales.
+                </p>
+            </div>
+            <div class="prodcuto__flex">
+                <h2 class="tittle__product">Yeso Triturado</h2>
+                <div class="container__imagen">
+                    <img src="/img/prod2.jpeg" alt="">
+                </div>
+                <p class="parrafo">El yeso triturado es procesado cuidadosamente para alcanzar una granulometría máxima
+                    de 1.5 pulgadas, cumpliendo con los estándares requeridos por la industria cementera y otros
+                    sectores industriales. Este material ofrece uniformidad en tamaño, facilidad de manipulación y
+                    excelente comportamiento en procesos de producción, convirtiéndose en una opción confiable y
+                    eficiente para aplicaciones industriales que requieren yeso procesado y listo para su uso.
+                </p>
+            </div>
+            <div class="prodcuto__flex">
+                <h2 class="tittle__product">Yeso Rajón</h2>
+                <div class="container__imagen">
+                    <img src="/img/prod3.jpeg" alt="">
+                </div>
+                <p class="parrafo">La Sociedad de Yesos Prada LTDA ofrece yeso rajón, un material extraído directamente
+                    del proceso minero, conservando su estado natural sin trituración. Este producto es ideal para
+                    procesos industriales que requieren materia prima en tamaños mayores, permitiendo al cliente
+                    realizar el tratamiento y procesamiento según sus necesidades específicas. El yeso rajón se
+                    caracteriza por su alta pureza y calidad mineralógica, garantizando un excelente desempeño en
+                    procesos productivos.
+                </p>
+            </div>
+            <div class="prodcuto__flex">
+                <h2 class="tittle__product">Cascajo de Yeso Triturado</h2>
+                <div class="container__imagen">
+                    <img src="/img/prod2.jpeg" alt="">
+                </div>
+                <p class="parrafo">El cascajo de yeso triturado corresponde a una capa del material que, aunque no es
+                    apta para la elaboración de cemento, posee excelentes propiedades para el mejoramiento y adecuación
+                    de vías destapadas o sin asfaltar. Gracias a su capacidad de compactación, estabilidad y
+                    resistencia, este producto es una solución eficiente y económica para proyectos de infraestructura
+                    vial rural, facilitando el tránsito y mejorando las condiciones de movilidad.
+                </p>
+            </div>
+        </div>
+        <div class="container-user">
+            <i class="fa-solid fa-user"></i>
+            <div class="content-shoping-cart prod_cont">
+                <a href="contacto.html"> <span class="prod_cont">Contáctanos para mas informacion</span></a>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer">Información de Contacto</p>
+                    <ul>
+                        <li>
+                            Cra 21 # 53 - 44 bucaramanga
+                        </li>
+                        <li>Teléfono: 3182434353</li>
+                        <li>Fax: 55555300</li>
+                        <li>Email: ti.soporte@yesosprada.com</li>
+                    </ul>
+                    <div class="social-icons">
+                        <span class="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </span>
+                        <span class="twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                        </span>
+                        <span class="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="information">
+                    <p class="title-footer">Información</p>
+                    <ul>
+                        <li><a href="#">Acerca de Nosotros</a></li>
+                        <li><a href="#">Prodcutos</a></li>
+                        <li><a href="#">Politicas de Privacidad</a></li>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Contactános</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="my-account">
+                    <p class="title-footer">Nuestro Equipo</p>
+                    <ul>
+                        <li><a href="#">Mi cuenta</a></li>
+                        <li><a href="#">Historial de ordenes</a></li>
+                        <li><a href="#">Lista de deseos</a></li>
+                        <li><a href="#">Boletín</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="newsletter">
+                    <p class="title-footer">Boletín informativo</p>
+                    <div class="content">
+                        <p>
+                            Descarga nuestro boletin informtivo.
+                        </p>
+                        <button>Descargar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>
+                    Todos los derechos reservados Sociedad de Yesos Prada LTDA &copy; 2026 Desarrollado por <a
+                        href="https://servandev.netlify.app/">Sergio Iván Bueno</a>
+                </p>
+                <a href="index.html" class="scrollup" id="scroll-up">
+                    <p>Ir arriba</p>
+                    <i class="fa-solid fa-up-long"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

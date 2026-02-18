@@ -1164,7 +1164,7 @@ html {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-image: url('/img/principal1.jpg');
+	background-image: url('/img/equipos3.jpeg');
 	background-attachment: fixed;
 	/* Fija la imagen */
 	background-repeat: no-repeat;
@@ -1176,6 +1176,14 @@ html {
 	min-height: 100vh;
 	padding: 100px 0;
 	font-family: 'system-ui';
+}
+
+.timeline_tittle {
+	background-color: var(--doradosyp);
+	text-align: center;
+	margin-bottom: 0rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
 }
 
 .desing {
@@ -1239,4 +1247,72 @@ html {
 		transform: translateX(-50%);
 		border-radius: 50%;
 	}
+	.productos__flex {
+		grid-template-columns: 1fr;
+		width: 90%;
+	}
+}
+
+/* ********************************** */
+/*       PRODUCTOS   */
+/* ********************************** */
+.productos__tittle {
+	text-align: center;
+	padding-top: 1rem;
+}
+
+.productos__flex {
+	width: 120rem;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr); 
+	gap: 4rem;
+	align-items: stretch;
+}
+
+.prodcuto__flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+	box-shadow: 0px 0px 2px black;
+	border-radius: 10px;
+	padding: 1.5rem;
+
+	height: 100%;
+}
+
+
+.tittle__product {
+	text-align: center;
+}
+.tittle__product:hover {
+	text-shadow: 0px 0px 2px black;
+}
+
+.container__imagen {
+	height: 250px;
+}
+
+.container__imagen img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: all 1s;
+	border-radius: 2rem;
+}
+
+.container__imagen img:hover {
+	width: 99%;
+	height: 99%;
+}
+
+.parrafo {
+	text-align: center;
+	font-size: 2rem;
+	width: 90%;
+}
+.prod_cont{
+text-align: center;
 }
