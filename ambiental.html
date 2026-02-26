@@ -1,12 +1,230 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="js/main.js" defer></script>
+    <script src="js/indicadores.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"
+        defer></script>
+    <script src="https://kit.fontawesome.com/da6a5826df.js" crossorigin="anonymous" defer></script>
+    <title>Sociedad de yesos prada LTDA</title>
 </head>
+
+
 <body>
-    <h1>Aqui va la sección de ambiental, sección aun en desarrollo!</h1>
-    <a href="index.html">Volver a la pagina principal</a>
+ <header>
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="container-logo">
+                    <a href="index.html" class="logo">
+                        <img src="img/logosypcompleto.jpeg" alt="Logo Sociedad de Yesos Prada LTDA" class="logo__img">
+                    </a>
+                </div>
+                <div class="container-user">
+                    <i class="fa-solid fa-user"></i>
+                    <div class="content-shoping-cart">
+                        <a href="contacto.html"> <span class="text">Contáctanos</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Menu-->
+        <div class="container-navbar">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid navcolor">
+                        <button class="navbar-toggler navcolor" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="ambiental.html">Medio
+                                        Ambiente</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="contacto.html">Contáctanos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="social.html">Gestión
+                                        Social</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <!-- HERO AMBIENTAL -->
+
+
+    <section class="ambiental-container">
+        <div class="banner-principal">
+            <div class="banner-content">
+                <h1>Nuestro Compromiso con la Tierra</h1>
+                <p>Pequeñas acciones hoy para un futuro sostenible mañana.</p>
+            </div>
+        </div>
+
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1527066579998-dbbae57f45ce?auto=format&fit=crop&q=80&w=500" alt="Cuidado del agua">
+                </div>
+                <div class="card-text">
+                    <h3>Cuidado del Agua</h3>
+                    <p>Implementamos sistemas de ahorro y tratamiento para proteger nuestro recurso más vital.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=500" alt="Reforestación">
+                </div>
+                <div class="card-text">
+                    <h3>Reforestación</h3>
+                    <p>Plantamos vida recuperando ecosistemas locales y compensando nuestra huella de carbono.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/ambiental1.jpeg" alt="Energías Limpias">
+                </div>
+                <div class="card-text">
+                    <h3>Energías Limpias</h3>
+                    <p>Apostamos por fuentes renovables para reducir el impacto ambiental en nuestras operaciones.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <section class="indicadores-section">
+    <div class="container">
+        <h2 class="text-center mb-5">Indicadores Ambientales</h2>
+
+        <div class="row text-center">
+            <div class="col-md-3 indicador">
+                <h3 class="contador" data-target="120">0</h3>
+                <p>Hectáreas Reforestadas</p>
+            </div>
+
+            <div class="col-md-3 indicador">
+                <h3 class="contador" data-target="35000">0</h3>
+                <p>Toneladas Procesadas Anualmente</p>
+            </div>
+
+            <div class="col-md-3 indicador">
+                <h3 class="contador" data-target="15">0</h3>
+                <p>Años de Cumplimiento Ambiental</p>
+            </div>
+
+            <div class="col-md-3 indicador">
+                <h3 class="contador" data-target="98">0</h3>
+                <p>% Cumplimiento Normativo</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer">Información de Contacto</p>
+                    <ul>
+                        <li>
+                            Cra 21 # 53 - 44 bucaramanga
+                        </li>
+                        <li>Teléfono: 3182434353</li>
+                        <li>Fax: 55555300</li>
+                        <li>Email: ti.soporte@yesosprada.com</li>
+                    </ul>
+                    <div class="social-icons">
+                        <span class="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </span>
+                        <span class="twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                        </span>
+                        <span class="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="information">
+                    <p class="title-footer">Información</p>
+                    <ul>
+                        <li><a href="#">Acerca de Nosotros</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">Políticas de Privacidad</a></li>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Contáctanos</a></li>
+                    </ul>
+                </div>
+
+                
+                <div class="my-account">
+                    <p class="title-footer">Nuestro Equipo</p>
+                    <ul>
+                        <li><a href="#">Nuestro Equipo</a></li>
+                    </ul>
+                </div>
+                
+
+                <div class="newsletter">
+                    <p class="title-footer">Boletín informativo</p>
+                    <div class="content">
+                        <p>
+                            Descarga nuestro boletin informativo.
+                        </p>
+                        <button>Descargar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>
+                    Todos los derechos reservados Sociedad de Yesos Prada LTDA &copy; <span id="year"></span>            Desarrollado por <a href="https://servandev.netlify.app/">Sergio Iván Bueno</a> 
+                </p>
+                <a href="index.html" class="scrollup" id="scroll-up">
+                    <p>Ir arriba</p>
+                    <i class="fa-solid fa-up-long"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
 </body>
 </html>

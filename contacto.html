@@ -1,12 +1,304 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="js/main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"
+        defer></script>
+    <script src="https://kit.fontawesome.com/da6a5826df.js" crossorigin="anonymous" defer></script>
+    <title>Sociedad de yesos prada LTDA</title>
 </head>
+
+
+
+
+
 <body>
-    <h1>Aqui va la sección de contacto, sección aun en desarrollo!</h1>
-    <a href="index.html">Volver a la pagina principal</a>
+    <!--HEADER-->
+    <header>
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="container-logo">
+                    <a href="index.html" class="logo">
+                        <img src="img/logosypcompleto.jpeg" alt="Logo Sociedad de Yesos Prada LTDA" class="logo__img">
+                    </a>
+                </div>
+                <div class="container-user">
+                    <i class="fa-solid fa-user"></i>
+                    <div class="content-shoping-cart">
+                        <a href="contacto.html"> <span class="text">Contáctanos</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Menu-->
+        <div class="container-navbar">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid navcolor">
+                        <button class="navbar-toggler navcolor" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="ambiental.html">Medio
+                                        Ambiente</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="contacto.html">Contáctanos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="social.html">Gestión
+                                        Social</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <!--BANNER-->
+    <section class="banner">
+        <div class="content-banner">
+            <p>Sociedad de Yesos Prada LTDA</p>
+            <h2>Somos el mayor <br> proveedor de yeso del pais.</h2>
+            <a href="productos.html">Nuestros Productos</a>
+        </div>
+    </section>
+
+
+
+
+    <main class="main-content">
+        <section class="contact-section container">
+            <div class="contact-wrapper">
+                <div class="contact-info-column">
+                    <span class="subtitle">Hablemos</span>
+                    <h2 class="heading-1">Ponte en contacto con nosotros</h2>
+                    <p>¿Tienes dudas sobre nuestros proyectos de reforestación o productos? Nuestro equipo está listo
+                        para
+                        ayudarte.</p>
+
+                    <div class="contact-details">
+                        <div class="detail-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <h3>Ubicación</h3>
+                                <p>Calle Ambiental 123, Ciudad Naturaleza</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>
+                                <h3>Teléfono</h3>
+                                <p>+57 300 123 4567</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>contacto@tuempresa.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--
+                    <div class="contact-map-placeholder">
+                        <img src="/img/mapa-contacto.png" alt="Ubicación" />
+                    </div>
+                    -->
+                </div>
+
+                <div class="contact-form-column">
+                    <form action="#" class="modern-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder=" " required>
+                            <label for="name">Nombre Completo</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder=" " required>
+                            <label for="email">Correo Electrónico</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder=" ">
+                            <label for="subject">Asunto</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder=" " required></textarea>
+                            <label for="message">Tu Mensaje</label>
+                        </div>
+                        <button type="submit" class="btn-send">
+                            Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!--SLIDER AUTOMATICO-->
+    <section class="specials" id="clientes">
+        <a href="productos.html" class="link_heading">
+            <h1 class="heading-1">Nuestros Clientes</h1>
+        </a>
+
+        <div class="slider">
+            <div class="slide-track">
+                <div class="slide">
+                    <img src="img/clientes1.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/clientes2.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/clientes3.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/clientes4.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/clientes5.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/clientes6.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/clientes7.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/clientes8.png" alt="">
+                </div>
+
+
+                <!--Repeat-->
+                <div class="slide">
+                    <img src="img/clientes1.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/clientes2.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/clientes3.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/clientes4.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/clientes5.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/clientes6.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/clientes7.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/clientes8.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer">Información de Contacto</p>
+                    <ul>
+                        <li>
+                            Cra 21 # 53 - 44 bucaramanga
+                        </li>
+                        <li>Teléfono: 3182434353</li>
+                        <li>Fax: 55555300</li>
+                        <li>Email: ti.soporte@yesosprada.com</li>
+                    </ul>
+                    <div class="social-icons">
+                        <span class="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </span>
+                        <span class="twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                        </span>
+                        <span class="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="information">
+                    <p class="title-footer">Información</p>
+                    <ul>
+                        <li><a href="#">Acerca de Nosotros</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">Políticas de Privacidad</a></li>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Contáctanos</a></li>
+                    </ul>
+                </div>
+
+                
+                <div class="my-account">
+                    <p class="title-footer">Nuestro Equipo</p>
+                    <ul>
+                        <li><a href="#">Nuestro Equipo</a></li>
+                    </ul>
+                </div>
+                
+
+                <div class="newsletter">
+                    <p class="title-footer">Boletín informativo</p>
+                    <div class="content">
+                        <p>
+                            Descarga nuestro boletin informativo.
+                        </p>
+                        <button>Descargar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>
+                    Todos los derechos reservados Sociedad de Yesos Prada LTDA &copy; <span id="year"></span>            Desarrollado por <a href="https://servandev.netlify.app/">Sergio Iván Bueno</a> 
+                </p>
+                <a href="index.html" class="scrollup" id="scroll-up">
+                    <p>Ir arriba</p>
+                    <i class="fa-solid fa-up-long"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
