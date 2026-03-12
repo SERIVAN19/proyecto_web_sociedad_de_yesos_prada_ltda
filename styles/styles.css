@@ -1157,19 +1157,6 @@ text-align: center;
 
 
 
-/* Adaptación para móviles-------------------------------------------------------------------------------------------------- */
-
-
-
-
-/* Adaptación para móviles */
-@media (max-width: 768px) {
-    .banner-content h1 {
-        font-size: 2rem;
-    }
-}
-
-
 /* INDICADORES SECCION AMBIENTAL */
 .indicadores-section {
     background-color: var(--moradosyp);
@@ -1318,20 +1305,6 @@ text-align: center;
     background-color: var(--dark-color);
     transform: translateY(-3px);
 }
-
-/* RESPONSIVE */
-@media (max-width: 768px) {
-    .contact-wrapper {
-        grid-template-columns: 1fr;
-        gap: 4rem;
-    }
-    
-    .contact-form-column {
-        padding: 3rem 2rem;
-    }
-}
-
-
 
 /* SEDES SECTION */
 .sedes-section {
@@ -1514,67 +1487,36 @@ text-align: center;
     color: #777;
     font-style: italic;
 }
-
-/* RESPONSIVE TEAM */
+/* ********************************** */
+/*       MEDIA QUERIES -- 1024px      */
+/* ********************************** */
 @media (max-width: 1024px) {
-    .container-team {
-        grid-template-columns: repeat(2, 1fr);
-    }
+	.container-team {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.container-sedes {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
-
-@media (max-width: 580px) {
-    .container-team {
-        grid-template-columns: 1fr;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* RESPONSIVE SEDES */
-@media (max-width: 1024px) {
-    .container-sedes {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 468px) {
-    .container-sedes {
-        grid-template-columns: 1fr;
-    }
-}
-
 
 /* ********************************** */
 /*       MEDIA QUERIES -- 768px       */
 /* ********************************** */
 @media (max-width: 768px) {
+	.banner-content h1 {
+		font-size: 2rem;
+	}
+
+	.contact-wrapper {
+		grid-template-columns: 1fr;
+		gap: 4rem;
+	}
+
+	.contact-form-column {
+		padding: 3rem 2rem;
+	}
+
 	html {
 		font-size: 55%;
 	}
@@ -1736,13 +1678,25 @@ text-align: center;
 		transform: translateX(-50%);
 		border-radius: 50%;
 	}
-	
+}
+
+/* ********************************** */
+/*       MEDIA QUERIES -- 580px       */
+/* ********************************** */
+@media (max-width: 580px) {
+	.container-team {
+		grid-template-columns: 1fr;
+	}
 }
 
 /* ********************************** */
 /*       MEDIA QUERIES -- 468px       */
 /* ********************************** */
 @media (max-width: 468px) {
+	.container-sedes {
+		grid-template-columns: 1fr;
+	}
+
 	html {
 		font-size: 42.5%;
 	}
